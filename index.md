@@ -105,7 +105,8 @@ What does this look like? Let’s see a numerical example first.
 
 Imagine we have 3 sets A, B, and C given below. 
 
-A = {1, 2, 3, 4}  		B = {3, 4, 5, 6}  		C = {5, 6, 7, 8, 9}  
+A = {1, 2, 3, 4}  		
+B = {3, 4, 5, 6}  		C = {5, 6, 7, 8, 9}  
 
 After applying the set union operation (denoted by the “cup” symbol) we receive the following results:
 
