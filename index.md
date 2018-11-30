@@ -349,3 +349,5 @@ For more information on SQL Joins and the other types of joins, see the followin
 |099        |3                |Beverly Hills, CA |
 |151        |10               |Bozeman, MT       |
 |078        |16               |Seattle, WA       |
+
+Authors: Karen Stengel, Kyle Hagerman, Tim Wells, Jared Thompson
