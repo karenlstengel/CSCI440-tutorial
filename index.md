@@ -125,7 +125,9 @@ You may be starting to see how these set operations form the groundwork for thin
 
 ###Let’s try some examples. Given the sets below, answer the following questions. See the solutions for Section 3 in appendix A at the end of the tutorial.
 
-D = {22, 34, 28, 7}  		E = {56, 79, 403, 2}   		F = {44, 23, 84}  
+D = {22, 34, 28, 7}  
+E = {56, 79, 403, 2}  
+F = {44, 23, 84}  
 
 1. D ⋃ E  
 2. E ⋃ F  
@@ -144,7 +146,9 @@ Definition: **Set Intersection** results in a set of elements formed of elements
 
 Set intersection allows us to examine shared elements between two sets (looking for keys in tables? Use an intersection!). Let’s see what they look like with set notation. Again, imagine we have sets A, B, and C:
 
-A = {1, 2, 3, 4}  			 B = {3, 4, 5, 6}  		 C = {5, 6, 7, 8, 9}   
+A = {1, 2, 3, 4}  
+B = {3, 4, 5, 6}  
+C = {5, 6, 7, 8, 9}   
 
 Then their intersections are as follows (set intersection is denoted by the “cap” symbol): 
 
@@ -163,7 +167,9 @@ The center of the circles in a venn diagram shows which elements are shared by b
 
 ###Let’s try some examples to check your understanding. Given the sets below answer the following questions. See the solutions at the end of the tutorial in appendix A under Section 4.
 
-D = {11, 22, 33, 44}  		E = {22, 44, 66}  		F = {11, 33, 55}  
+D = {11, 22, 33, 44}  
+E = {22, 44, 66}  
+F = {11, 33, 55}  
 
 1. D ∩ E  
 2. D ∩ F  
@@ -177,7 +183,8 @@ For an in depth look at set intersections with descriptive venn diagram examples
 
 Now that we’ve seen both union and intersection operations, it’s time to take a look at the **Cartesian Product**. Like the other set operations, the Cartesian product is applied to two sets together. The Cartesian product also returns a set like the other operations we’ve seen, but this time the set returned is a set of tuples. Specifically, if we have two sets, A and B, and their elements are a and b where a ∊ A and b ∊ B, then the product of A x B = {(a1, b1), (a1, b2), …, (a2, b1), (a2, b2), …}. Each element of A is matched with every element of B, put in a tuple, then placed in the resultant set. Let’s look at some examples. Imagine we have sets A and B:
 
-A = {1, 2}  		 B = {3, 4, 5, 6}  
+A = {1, 2}  
+B = {3, 4, 5, 6}  
 
 Then find their Cartesian products:  
 
@@ -186,7 +193,8 @@ B x A = {(3, 1), (3, 2), (4, 1), (4, 2), (5, 1), (5, 2), (6, 1), (6, 2)}
 
 Note that this set operation is not commutative even though the sets A and B remain the same before each Cartesian product. The order of the initial sets affects the outcome of the product. Now another example, imagine we have sets C and D:
 
-C = {“cat”, “dog”, “fish”}  		 D = {1, 2, 3}  
+C = {“cat”, “dog”, “fish”}  
+D = {1, 2, 3}  
 
 Then C “cross” D equals:
 
@@ -195,7 +203,9 @@ C x D = {(“cat”, 1), (“cat”, 2), (“cat”, 3), (“dog”, 1), (“dog
 You can see that it doesn’t matter what type the elements actually are, the operation remains the same.  
 ###Let’s try some examples. Given the following sets below, answer the following questions. See the solutions for Section 5 at the end of the tutorial in appendix A.
 
-E = {“ball”, “bat”, “hoop”, “sneakers”}  		F = {1, 2, 3}  		G = {4, 5, 6}  
+E = {“ball”, “bat”, “hoop”, “sneakers”}  
+F = {1, 2, 3}  
+G = {4, 5, 6}  
 
 1. E x F
 2. E x G
