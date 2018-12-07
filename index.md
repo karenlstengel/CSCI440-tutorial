@@ -74,7 +74,7 @@ Depending on the data you’re trying to display, it may be more helpful to use 
 
 Sets are much more powerful because you can use them for set operations. Set operations lay the foundation for relational databases and how tables can be manipulated to retrieve specific data. We will cover set unions and intersections in the next two sections. These topics will be followed by cartesian products and after that we will discuss examples in relational databases using SQL. 
 
-###Let’s try out what you’ve learned so far. Given the following table, answer the questions below. At the end of this tutorial in appendix A, you may find the solutions to these questions under Section 1.
+### Let’s try out what you’ve learned so far. Given the following table, answer the questions below. At the end of this tutorial in appendix A, you may find the solutions to these questions under Section 1.
 
 |Movie           |Running Time (minutes)|Director         |
 |----------------|----------------------|-----------------|
@@ -123,7 +123,7 @@ Imagine that each circle is a separate set. Both circles are highlighted in blue
 
 You may be starting to see how these set operations form the groundwork for things like SQL queries. A set union looks similar to joining tables together, doesn’t it?
 
-###Let’s try some examples. Given the sets below, answer the following questions. See the solutions for Section 3 in appendix A at the end of the tutorial.
+### Let’s try some examples. Given the sets below, answer the following questions. See the solutions for Section 3 in appendix A at the end of the tutorial.
 
 D = {22, 34, 28, 7}  
 E = {56, 79, 403, 2}  
@@ -165,7 +165,7 @@ Here’s an example of set intersection depicted graphically with a Venn Diagram
 
 The center of the circles in a venn diagram shows which elements are shared by both sets. This is the definition of set intersection. 
 
-###Let’s try some examples to check your understanding. Given the sets below answer the following questions. See the solutions at the end of the tutorial in appendix A under Section 4.
+### Let’s try some examples to check your understanding. Given the sets below answer the following questions. See the solutions at the end of the tutorial in appendix A under Section 4.
 
 D = {11, 22, 33, 44}  
 E = {22, 44, 66}  
@@ -201,7 +201,7 @@ Then C “cross” D equals:
 C x D = {(“cat”, 1), (“cat”, 2), (“cat”, 3), (“dog”, 1), (“dog”, 2), (“dog”, 3), (“fish”, 1), (“fish”, 2), (“fish”, 3)}
 
 You can see that it doesn’t matter what type the elements actually are, the operation remains the same.  
-###Let’s try some examples. Given the following sets below, answer the following questions. See the solutions for Section 5 at the end of the tutorial in appendix A.
+### Let’s try some examples. Given the following sets below, answer the following questions. See the solutions for Section 5 at the end of the tutorial in appendix A.
 
 E = {“ball”, “bat”, “hoop”, “sneakers”}  
 F = {1, 2, 3}  
@@ -319,33 +319,33 @@ These examples cover only the very basics of taking the cartesian products of ta
 
 For more information on SQL Joins and the other types of joins, see the following link [here](https://www.w3schools.com/sql/sql_join.asp)
  
-##Appendix A. Solutions to Example Questions
+## Appendix A. Solutions to Example Questions
 
-####Section 2.  
+#### Section 2.  
 1. (The Delivery Man, The Internship, Wedding Crashers, The Watch, Couples Retreat, The Dilemma)  
 	Look for parentheses on your tuples and separate each element with a comma.  
 2. (105, 119, 119, 102, 113, 111)  {105, 119, 102, 113, 111}  The set is one element shorter than the tuple because two movies have the same running time and sets only record distinct objects.  
 3. ((105, Ken Scott), (119, Shawn Levy), (119, David Dobkin), (102, Akiva Schaffer), (113, Peter Billingsley), (111, Ron Howard))  
 	Don’t forget the outer parentheses to indicate a nested tuple and check to make sure you have all your commas placed correctly.  
 
-####Section 3.  
+#### Section 3.  
 1. D ⋃ E = {22, 34, 28, 7, 56, 79, 403, 2} Remember order doesn’t matter! As long as you have all these elements you’re fine. The same goes for all rest of these answers.  
 2. E ⋃ F = {56, 79, 403, 2, 44, 23, 84}  
 3. D ⋃ F = {22, 34, 28, 7, 44, 23, 84}  
 4. D ⋃ E ⋃ F = {22, 34, 28, 7, 56, 79, 403, 2, 44, 23, 84} Set unions between more than two sets chain together because all elements just collect into one final set.  
 
-####Section 4.   
+#### Section 4.   
 1. D ∩ E = {22, 44}   Only the even numbers are shared between sets D and E  
 2. D ∩ F = {11, 33}   Only the odd numbers are shared between sets D and E  
 3. E ∩ F = { } or ∅   No elements are shared between E and F  
 
-####Section 5.   
+#### Section 5.   
 1. E x F = {(“ball”, 1), (“ball”, 2), (“ball”, 3), (“bat”, 1), (“hoop”, 2), (“hoop”, 3), (“sneakers”, 1), (“sneakers”, 2), (“sneakers”, 3)}  
 2. E x G = {(“ball”, 4), (“ball”, 5), (“ball”, 6), (“bat”, 4), (“hoop”, 5), (“hoop”, 6), (“sneakers”, 4), (“sneakers”, 5), (“sneakers”, 6)}  
 3. F x G = {(1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6)}  
 4. G x F = {(4, 1), (4, 2), (4, 3), (5, 1), (5, 2), (5, 3), (6, 1), (6, 2), (6, 3)}  
 
-####Section 6.  
+#### Section 6.  
 1.  a. It would result in a cartesian product of the two tables--that is, each row of Product_Table would be paired with each row of Quantity_By_Store, resulting in all possible combinations of rows from each table.  
     b. This likely won’t be useful because it simply puts together all data without any intrinsic meaning.    
     c. We would then be matching the rows in Quantity_By_Store with the corresponding rows in Product_Table such that we would know the quantity of each item in each store.    
